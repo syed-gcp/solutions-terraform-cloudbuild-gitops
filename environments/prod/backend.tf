@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "golden-shine-274417-tfstate"
     prefix = "env/prod"
   }
 }
