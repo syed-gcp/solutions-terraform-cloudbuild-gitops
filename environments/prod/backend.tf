@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "golden-shine-274417-tfstate"
+    bucket = "cicd-sandbox-274508"
     prefix = "env/prod"
   }
 }
